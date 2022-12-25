@@ -4,8 +4,8 @@ import { Injectable } from '@nestjs/common';
 export class AppService {
   getHello() {
     return {
-      status: 'success',
-      message: 'Hello World!',
+      status: 200,
+      message: 'Please use /tweet for app functionality',
     };
   }
 }
