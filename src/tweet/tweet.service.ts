@@ -61,8 +61,6 @@ export class TweetService {
         headers,
       });
 
-      console.log(quotes.data.data.length);
-
       const resQuotes = quotes.data.data;
 
       if (resQuotes && resQuotes.length > 0) {
